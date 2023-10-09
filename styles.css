@@ -1,0 +1,301 @@
+/* Reset some default styles */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set a background color and default font styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+/* Header Styles */
+/* Header Styles */
+
+/* Header Styles */
+/* Header Styles */
+header {
+    background-color: #f0f0f0; /* Initial background color */
+    color: #333; /* Initial text color */
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    animation: jellyfish 20s infinite linear; /* Apply the jellyfish animation */
+}
+
+@keyframes jellyfish {
+    0% {
+        background-color: #f0f0f0; /* Start color */
+    }
+    20% {
+        background-color: #FF5733; /* Color change at 20% */
+    }
+    40% {
+        background-color: #FFC300; /* Color change at 40% */
+    }
+    60% {
+        background-color: #33FF57; /* Color change at 60% */
+    }
+    80% {
+        background-color: #33A6FF; /* Color change at 80% */
+    }
+    100% {
+        background-color: #f0f0f0; /* End color */
+    }
+}
+
+
+/* Dropdown menu styling */
+/* Reset some default styles */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set a background color and default font styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+/* Navbar Styles */
+nav {
+    background-color: #333;
+    color: #fff;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+}
+
+.menu-item {
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+.menu-item a {
+    text-decoration: none;
+    color: #fff;
+    padding: 15px 20px;
+    display: block;
+}
+
+.menu-item a:hover {
+    background-color: #555;
+}
+
+/* Dropdown menu styling */
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    list-style: none;
+    padding: 0;
+    width: 200px;
+    top: 100%;
+    left: 0;
+}
+
+.menu-item:hover .dropdown-menu {
+    display: block;
+}
+
+/* Style for dropdown menu items */
+.dropdown-menu .menu-item {
+    position: relative;
+}
+
+.dropdown-menu .menu-item a {
+    padding: 12px 20px;
+}
+
+.dropdown-menu .menu-item a:hover {
+    background-color: #555;
+}
+
+
+
+
+
+.logo img {
+    width: 100px;
+    height: auto;
+    margin-left: 20px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    padding: 10px 20px; /* Increase padding for better clickability */
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s; /* Add transitions for color changes */
+}
+
+nav a:hover {
+    background-color: transparent; /* Remove background color on hover */
+    color: #007ACC; /* Change text color on hover to a different shade */
+}
+
+
+
+/* Hero Section Styles */
+.hero {
+    background-image: url('your-hero-image.jpg');
+    background-size: cover;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.hero-content h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #ff6600;
+    color: #fff;
+    font-size: 18px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #ff9900;
+}
+
+/* Search for Colleges Section Styles */
+.search {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.search-bar {
+    display: inline-block;
+}
+
+.search-bar input[type="text"] {
+    padding: 10px;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.search-bar button {
+    padding: 10px 20px;
+    background-color: #ff6600;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    margin-left: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.search-bar button:hover {
+    background-color: #ff9900;
+}
+
+/* Featured Colleges Section Styles */
+.featured-colleges {
+    background-color: #fff;
+    padding: 30px;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.featured-colleges h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+/* Style the featured colleges section */
+.featured-colleges {
+    text-align: center;
+    background-color: #f5f5f5;
+    padding: 20px;
+}
+
+/* Style the college cards */
+.college-card {
+    display: inline-block;
+    width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the college card images */
+.college-card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+/* Style college names */
+.college-card h3 {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+/* Style additional college information */
+.college-card p {
+    font-size: 14px;
+    margin: 5px 0;
+}
+
+/* Style review text */
+.college-card p:contains("Reviews: Excellent") {
+    color: green;
+}
+
+.college-card p:contains("Reviews: Very Good") {
+    color: #007bff;
+}
+
+.college-card p:contains("Reviews: Good") {
+    color: orange;
+}
+
+/* Media Query for responsiveness */
+@media (max-width: 768px) {
+    .college-card {
+        width: 100%;
+    }
+}
+
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Add more styles for other sections as needed */
